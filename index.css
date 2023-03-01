@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  color: rgba(18, 62, 103, 0.721);
+  font-size: 2rem;
+  font-family: sans-serif;
+  background-color: #404b69;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  cursor: pointer;
+  color: #9aabd8;
+  border: none;
+  border-radius: 10px;
+  border: 3px solid #9aabd8;
+  background-color: #404b69;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 30px;
+
+  padding: 10px;
+}
+
+.reset-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.player-container,
+.enemy-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: black;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  font-size: 80px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  color: #9aabd8;
+}
+
+.btn-container button {
+}

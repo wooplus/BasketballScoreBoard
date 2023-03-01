@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="player-container">
+        <h3 class="title">HOME</h3>
+        <div class="score-board">
+          <h1 class="player-score">0</h1>
+        </div>
+        <div class="btn-container">
+          <button onclick="playerAddOne()">+1</button>
+          <button onclick="playerAddTwo()">+2</button>
+          <button onclick="playerAddThree()">+3</button>
+        </div>
+      </div>
+      <div class="enemy-container">
+        <h3 class="title">Guest</h3>
+        <div class="score-board">
+          <h1 class="enemy-score">0</h1>
+        </div>
+        <div class="btn-container">
+          <button onclick="enemyAddOne()">+1</button>
+          <button onclick="enemyAddTwo()">+2</button>
+          <button onclick="enemyAddThree()">+3</button>
+        </div>
+      </div>
+    </div>
+    <button class="reset-btn">Reset</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
